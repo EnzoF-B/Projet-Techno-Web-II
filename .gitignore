@@ -1,0 +1,33 @@
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+db.sqlite3
+*.sqlite3
+*.log
+local_settings.py
+
+# Environnements virtuels
+venv/
+env/
+djangoenv/
+ENV/
+
+# Fichiers générés
+staticfiles/
+media/
+
+# Système
+.DS_Store
+.env
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
